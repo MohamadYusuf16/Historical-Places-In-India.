@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Historical Places In India</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>    
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCe_1xTLEUHi2pQzcGNZ1Sqr0QrC6cS0b8",
+          authDomain: "historicalplacesinindia-c5eee.firebaseapp.com",
+          projectId: "historicalplacesinindia-c5eee",
+          storageBucket: "historicalplacesinindia-c5eee.appspot.com",
+          messagingSenderId: "896293150597",
+          appId: "1:896293150597:web:842da8112f528f7c566eec",
+          measurementId: "G-80GPKBG668"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader"> 
+    	<div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="s-header__logo">
+            <a class="" href="index.html">
+            </a>
+        </div>
+
+        <div class="row s-header__navigation">
+
+            <nav class="s-header__nav-wrap">
+                <ul class="s-header__nav">
+                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="has-children">
+                        <a href="#" title="">Places</a>
+                        <ul class="sub-menu">
+                            <li><a href="taj-mahal.html">Taj Mahal</a></li>
+                            <li><a href="Qutub-Minar.html">Qutub Minar</a></li>
+                            <li><a href="India-Gate.html">India Gate</a></li>
+                            <li><a href="Golden-Temple.html">Golden Temple</a></li>
+                            <li><a href="Charminar.html">Charminar</a></li>
+                            <li><a href="Khajuraho-Temple.html">Khajuraho Temple</a></li>
+                            <li><a href="Jallianwala-Bagh.html">Jallianwala Bagh</a></li>
+                            <li><a href="Chola-Temple.html">Chola Temple</a></li>
+                            <li><a href="Mahabalipuram.html">Mahabalipuram</a></li>
+                            <li><a href="Gol-Gumbaz.html">Gol Gumbaz</a></li>
+                            <li><a href="Hampi.html">Hampi</a></li>
+                            <li><a href="Mysore-Palace.html">Mysore Palace</a></li> 
+                        </ul>
+                    </li>
+                <a href="#" title="Close Menu" class="s-header__overlay-close close-mobile-menu">Close</a>
+
+            </nav> <!-- end s-header__nav-wrap -->
+
+        </div> <!-- end s-header__navigation -->
+
+        <a class="s-header__toggle-menu" href="#" title="Menu"><span>Menu</span></a>
+        
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero">
+
+        <div class="s-hero__slider">
+
+            <div class="s-hero__slide">
+
+                <div class="s-hero__slide-bg" style="background-image: url('images/Slide 01taj mahal.jpg');"></div>
+
+                <div class="row s-hero__slide-content animate-this">
+                    <div class="column">
+                        <div class="s-hero__slide-meta">
+                            <span class="cat-links">
+                            </span>
+                            </span>
+                        </div>
+                        <h1 class="s-hero__slide-text">
+                            <a href="#">
+                                 Historical Places in India
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+            </div> <!-- end s-hero__slide -->
+
+            <div class="s-hero__slide">
+
+                <div class="s-hero__slide-bg" style="background-image: url('images/Slide 02mysore.jpg');"></div>
+
+                <div class="row s-hero__slide-content animate-this">
+                    <div class="column">
+                        <div class="s-hero__slide-meta">
+                        </div>
+                        <h1 class="s-hero__slide-text">
+                            <a href="#">
+                                Historical Places in India
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+            </div> <!-- end s-hero__slide -->
+
+            <div class="s-hero__slide">
+
+                <div class="s-hero__slide-bg" style="background-image: url('images/Slide 03temple.jpg');"></div>
+
+                <div class="row s-hero__slide-content animate-this">
+                    <div class="column">
+                        <div class="s-hero__slide-meta">
+                            </span>
+                        </div>
+                        <h1 class="s-hero__slide-text">
+                            <a href="#">
+                                Historical Places in India </a>
+                        </h1>
+                    </div>
+                </div>
+
+            </div> <!-- end s-hero__slide -->
+
+        </div> <!-- end s-hero__slider -->
+        <div class="nav-arrows s-hero__nav-arrows">
+            <button class="s-hero__arrow-prev">
+                <svg viewBox="0 0 15 15" xmlns="#" width="15" height="15"><path d="M1.5 7.5l4-4m-4 4l4 4m-4-4H14" stroke="currentColor"></path></svg>
+            </button>
+            <button class="s-hero__arrow-next">
+               <svg viewBox="0 0 15 15" xmlns="#" width="15" height="15"><path d="M13.5 7.5l-4-4m4 4l-4 4m4-4H1" stroke="currentColor"></path></svg>
+            </button>
+        </div> <!-- end s-hero__arrows -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- content
+    ================================================== -->
+    <section class="s-content s-content--no-top-padding">
+
+
+        <!-- masonry
+        ================================================== -->
+        <div class="s-bricks">
+
+            <div class="masonry">
+                <div class="bricks-wrapper h-group">
+
+                    <div class="grid-sizer"></div>
+
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                            
+                                <img src="images/thumbs/masonry/Taj Mahal Agra.jpg" 
+                                     srcset="images/thumbs/masonry/Taj Mahal Agra.jpg 1x, images/thumbs/masonry/Taj Mahal Agra-1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="taj-mahal.html">Taj Mahal, Agra</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Shah Jahan</a>
+                                    </span>
+            
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Taj Mahal ('Crown of the Palace'),is an
+                                     Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. 
+                                     It was commissioned in 1631 by the Mughal emperor Shah Jahan (1628 - 1658) to house the tomb of his favourite wife, Mumtaz Mahal; 
+                                     it also houses the tomb of Shah Jahan himself. 
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="taj-mahal.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+        
+                        <div class="entry__thumb">
+                            
+                                <img src="images/thumbs/masonry/Qutub Minar Delhi.jpg" 
+                                     srcset="images/thumbs/masonry/Qutub Minar Delhi.jpg 1x, images/thumbs/masonry/Qutub Minar Delhi -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+        
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Qutub-Minar.html">Qutub Minar, Delhi</a></h1>
+        
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Qutab-ud-din Aibak</a>
+                                    </span>
+                                </span>
+                                 
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and "victory tower" that forms part of the Qutb complex, 
+                                    which lies at the site of Delhi's oldest fortified city, Lal Kot, founded by the Tomar Rajputs.
+                                    It is a UNESCO World Heritage Site in the Mehrauli area of South Delhi, India.
+                                    It is one of the most visited tourist spots in the city, mostly built between 1199 and 1220.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Qutub-Minar.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+        
+                    </article> <!-- end entry -->
+    
+                    <article class="brick entry" data-aos="fade-up">    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/India Gate Delhi.jpg" 
+                                     srcset="images/thumbs/masonry/India Gate Delhi.jpg 1x, images/thumbs/masonry/India Gate Delhi -1.jpg 2x" alt="">
+                            </a>
+                        </div>  <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="India-Gate.html">India Gate, Delhi</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Edwin Lutyens</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The India Gate (formerly known as the All India War Memorial) is a war memorial located astride the Rajpath on the eastern edge of 
+                                    the "ceremonial axis" of New Delhi, formerly called duty path. It stands as a memorial to 84,000 soldiers of the British Indian
+                                     Army who died between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli 
+                                     and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War. 
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="India-Gate.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+        
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Golden Temple Punjab.jpg" 
+                                     srcset="images/thumbs/masonry/Golden Temple Punjab.jpg 1x, images/thumbs/masonry/Golden Temple Punjab -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+        
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Golden-Temple.html">Golden Temple, Punjab</a></h1>
+
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Guru Ram Das</a>
+                                        </span>
+                                    </span>
+                                 
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Golden Temple (also known as the Harmandir Sahib, lit.'abode of God',
+                                     Punjabi pronunciation, or the Darbār Sahib, 'exalted court', 
+                                     is a gurdwara located in the city of Amritsar, Punjab, India.
+                                     It is the preeminent spiritual site of Sikhism. It is one of the holiest sites in Sikhism, alongside the
+                                      Gurdwara Darbar Sahib Kartarpur in Kartarpur, and Gurdwara Janam Asthan in Nankana Sahib.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Golden-Temple">Learn More</a>
+                        </div> <!-- end entry__text -->
+                        
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Charminar Hyderabad.jpg" 
+                                     srcset="images/thumbs/masonry/Charminar Hyderabad.jpg 1x, images/thumbs/masonry/Charminar Hyderabad -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Charminar.html">Charminar, Hyderabad</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Sultan Mohammed Quli Qutb Shah</a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Charminar (lit.'four minarets') is a mosque and monument located in Hyderabad, Telangana, India. 
+                                    Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana
+                                     The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Charminar.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+    
+                    <article class="brick entry" data-aos="fade-up">
+            
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Jallianwala Bagh Punjab.jpg" 
+                                     srcset="images/thumbs/masonry/Jallianwala Bagh Punjab.jpg 1x, images/thumbs/masonry/Jallianwala Bagh Punjab -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+            
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Jallianwala-Bagh.html">Jallianwala Bagh, Punjab</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#"> Benjamin Polk</a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    Jallianwala Bagh is a historic garden and 'memorial of national importance' close to the Golden Temple complex in Amritsar, Punjab, India,
+                                     preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that occurred on the site on 
+                                     the festival of Baisakhi, 13 April 1919. The 7-acre (28,000 m2) site houses a museum, gallery and several memorial structures. 
+                                     It is managed by the Jallianwala Bagh National Memorial Trust. It was renovated between 2019 and 2021.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Jallianwala-Bagh.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                            
+                    </article> <!-- end article -->
+    
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Chola Temples  Tamil Nadu.jpg" 
+                                     srcset="images/thumbs/masonry/Chola Temples  Tamil Nadu.jpg 1x, images/thumbs/masonry/Chola Temples  Tamil Nadu -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Chola-Temple.html">Chola Temple, Tamil Nadu</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Raja Raja Cholan</a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    Rajaraja I (947 CE - 1014 CE), born Arunmozhi Varman or Arumozhi Varman 
+                                    and often described as Raja Raja the Great or Raja Raja Chozhan was a Chola emperor who reigned
+                                     from 985 CE to 1014 CE. He was the most powerful king in south India during his reign and is remembered 
+                                     for reinstating the Chola influence and ensuring its supremacy across the Indian Ocean.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Chola-Temple.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+    
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Khajuraho Temples Madhya Pradesh.jpg" 
+                                     srcset="images/thumbs/masonry/Khajuraho Temples Madhya Pradesh.jpg 1x, images/thumbs/masonry/Khajuraho Temples Madhya Pradesh -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Khajuraho-Temple.html">Khajuraho Temple, Madhya Pradesh</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Chandela dynasty</a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Khajuraho Group of Monuments are a group of Hindu and Jain temples in Chhatarpur district, Madhya Pradesh, India,
+                                     about 175 kilometres southeast of Jhansi. They are a UNESCO World Heritage Site.
+                                      The temples are famous for their nagara-style architectural symbolism and a few erotic sculptures.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Khajuraho-Temple.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Mahabalipuram Tamil Nadu.jpg" 
+                                     srcset="images/thumbs/masonry/Mahabalipuram Tamil Nadu.jpg 1x, images/thumbs/masonry/Mahabalipuram Tamil Nadu -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Mahabalipuram.html">Mahabalipuram, Tamil Nadu</a></h1>
+    
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Narasimhavarman</a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    Mamallapuram, also known as Mahabalipuram, is a town in Chengalpattu district 
+                                    in the southeastern Indian state of Tamil Nadu, best known for the UNESCO World Heritage 
+                                    Site of 7th- and 8th-century Hindu Group of Monuments at Mahabalipuram. It is one of the famous tourist sites in India.
+                                     The ancient name of the place is Thirukadalmallai.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Mahabalipuram.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Gol Gumbaz Karnataka.jpg" 
+                                     srcset="images/thumbs/masonry/Gol Gumbaz Karnataka.jpg 1x, images/thumbs/masonry/Gol Gumbaz Karnataka -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Gol-Gumbaz.html">Gol Gumbaz, Karnataka</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Yaqut of Dabul</a>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    Gol Gumbaz (lit.'Round Dome'),also written Gol Gumbad,is a 17th-century mausoleum located in Bijapur, 
+                                    a city in Karnataka, India. It houses the remains of Mohammad Adil Shah, seventh sultan of the Adil
+                                     Shahi dynasty, and some of his relatives. Begun in the mid-17th century, the structure never reached completion. 
+                                     The mausoleum is notable for its scale and exceptionally large dome.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Gol-Gumbaz.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Mysore Palace Karnataka.jpg" 
+                                     srcset="images/thumbs/masonry/Mysore Palace Karnataka.jpg 1x, images/thumbs/masonry/Mysore Palace Karnataka -1.jpg.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Mysore-Palace.html"> Mysore Palace, Karnataka</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Maharaja Krishnaraja Wadiyar IV</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    The Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence 
+                                    (house). It is located in Mysore, Karnataka. It used to be the official residence of the Wadiyar dynasty 
+                                    and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills
+                                     eastward. 
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Mysore-Palace.html">Learn More</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                                <img src="images/thumbs/masonry/Hampi Karnataka.jpg" 
+                                     srcset="images/thumbs/masonry/Hampi Karnataka.jpg 1x, images/thumbs/masonry/Hampi Karnataka -1.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h1 class="entry__title"><a href="Hampi.html">Hampi, Karnataka</a></h1>
+                                
+                                <div class="entry__meta">
+                                    <span class="byline">Build By:
+                                        <span class='author'>
+                                            <a href="#">Lakkana Dandesha </a>
+                                    </span>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                    Hampi or Hampe, also referred to as the Group of Monuments at Hampi, 
+                                    is a UNESCO World Heritage Site located in Hampi town, Vijayanagara district, 
+                                    east-central Karnataka, India.Hampi was the capital of the Vijayanagara Empire in the 14th century.
+                                </p>
+                            </div>
+                            <a class="entry__more-link" href="Hampi.html">LearnMore</a>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
+
+                </div> <!-- end brick-wrapper -->
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end s-bricks -->
+
+    </section> <!-- end s-content -->
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="column">
+                        <span>Designed And Developed By <a href="#">Mohamad Yusuf</a></span>
+                    </div> <!-- end ss-copyright -->
+                </div>
+            </div> 
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="#" width="15" height="15"><path d="M7.5 1.5l.354-.354L7.5.793l-.354.353.354.354zm-.354.354l4 4 .708-.708-4-4-.708.708zm0-.708l-4 4 .708.708 4-4-.708-.708zM7 1.5V14h1V1.5H7z" fill="currentColor"></path></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+   </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
